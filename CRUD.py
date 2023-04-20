@@ -1,4 +1,4 @@
-# Improved script for performing CRUD operations on a RESTful API
+# This script performs CRUD operations on a RESTful API
 
 import requests
 
