@@ -21,5 +21,8 @@ response = requests.put(update_url, json=update_payload)
 print(response.json())
 
 # DELETE
-response = requests.delete(update_url)
+# DELETE
+resource_id = 1
+delete_url = f"{api_url}/{resource_id}"
+response = requests.delete(delete_url)
 print(response.status_code)
